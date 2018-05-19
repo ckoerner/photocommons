@@ -63,10 +63,15 @@
 
 		PhotoCommons.init();
 
+			var wWidth = $(window).width();
+			var dWidth = wWidth * 0.7;
+			var wHeight = $(window).height();
+			var dHeight = wHeight * 0.8;
+			
 		$dialog.dialog({
 			title: msg('PhotoCommons') + ' - ' + msg('Insert images from Wikimedia Commons'),
-			width: 800,
-			height: 500,
+			width: dWidth,
+			height: dHeight,
 			autoOpen: false
 		});
 
