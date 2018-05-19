@@ -94,7 +94,7 @@ class PhotoCommons {
 
 	private function enqueue_styles() {
 		// Register our own styles and enqueue
-		wp_register_style( 'jquid_jquery_blog_stylesheet', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/redmond/jquery-ui.css' );
+		wp_register_style( 'jquid_jquery_blog_stylesheet', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/redmond/jquery-ui.css' );
 		wp_register_style( 'suggestions', plugins_url( 'css/jquery.suggestions.css', $this->baseDir ) );
 		wp_register_style( 'search', plugins_url( 'css/search.css', $this->baseDir ) );
 
